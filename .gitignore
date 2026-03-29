@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Data — large CSV files are never committed
+v1/data/*.csv
+
+# Model artifacts — rebuilt by running train.py
+v1/models/*.pkl
+
+# Live monitor output
+v1/results/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
